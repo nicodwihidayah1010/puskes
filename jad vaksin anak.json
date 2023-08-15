@@ -1,0 +1,124 @@
+{
+  "id": "60b81ff8-4677-411e-b008-640034278905",
+  "name": "jad vaksin anak",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "number",
+          "dataType": "@sys.number",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$number",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "Vaksin",
+          "dataType": "@Vaksin",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$Vaksin",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Vaksinasi Anakl Pada Puskesmas Sumur Batu Dilaksanakan Setiap Hari Rabu Sesuai Jam Kerja di Puskesmas.\n\n43. Daftar\n 3. Kembali\n 0. Menu Utama"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hari apa vaksin",
+          "userDefined": true,
+          "alias": "Vaksin",
+          "meta": "@Vaksin"
+        }
+      ],
+      "count": 0,
+      "id": "55af9ca9-8b90-4cb7-acf5-c2f95e4c95e5",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "kapan vaksin",
+          "userDefined": true,
+          "alias": "Vaksin",
+          "meta": "@Vaksin"
+        }
+      ],
+      "count": 0,
+      "id": "bf39f427-60b9-4024-a36e-f8a81a007a03",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "jadwal vaksinasi",
+          "userDefined": true,
+          "alias": "Vaksin",
+          "meta": "@Vaksin"
+        }
+      ],
+      "count": 0,
+      "id": "ae9a6f0e-02da-4cdc-9457-8398d3ac1a42",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "42",
+          "userDefined": false,
+          "alias": "number",
+          "meta": "@sys.number"
+        }
+      ],
+      "count": 0,
+      "id": "218ad9ac-23bc-488d-8ced-7775b62ae356",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

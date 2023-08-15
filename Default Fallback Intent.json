@@ -1,0 +1,40 @@
+{
+  "id": "8772e584-1bfc-4cb4-9d29-4eb0ae78a73d",
+  "name": "Default Fallback Intent",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": true,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "input.unknown",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Maaf Saya Tidak Mengerti,\n\nBerikut Beberapa Informasi Yang Bisa anda Cari Tentang Puskesmas Sumur Batu :\n\n1. Poli\n2. Bpjs\n3. vaksin\n4. Info Pelayanan\n5. Info Dokter\n6. Daftar Sebagai Pasien\n\nKetikkan Angka Terkait Untuk Tahap Berikutnya"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

@@ -1,0 +1,125 @@
+{
+  "id": "b47f8d14-560d-4b67-b2ce-06c5b1abeb8d",
+  "name": "Syarat BPJS",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "bpjs",
+          "dataType": "@BPJS",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$bpjs",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Berikut Persyaratan Mendaftar Pasien Dengan BPJS\n\n-Kartu BPJS\n-KTP\n-Kartu Keluarga\n\nDaftar Pasien: https://forms.gle/Hpx1jqHNMPFQXHNy5\n\n82. Kembali\n  0. Menu Utama"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Info BPJS",
+          "userDefined": true,
+          "alias": "bpjs",
+          "meta": "@BPJS"
+        }
+      ],
+      "count": 0,
+      "id": "d74c5a8d-5a0d-4d5b-a8cb-7782ea512e11",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "sarat BPJS",
+          "userDefined": true,
+          "alias": "bpjs",
+          "meta": "@BPJS"
+        }
+      ],
+      "count": 0,
+      "id": "fe3fba0f-72f5-48c9-8e5d-c013cca3fbf2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Syarat BPJS",
+          "userDefined": true,
+          "alias": "bpjs",
+          "meta": "@BPJS"
+        }
+      ],
+      "count": 0,
+      "id": "97462435-afb9-41c2-acf4-d0df68239abe",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Persyaratan BPJS",
+          "userDefined": true,
+          "alias": "bpjs",
+          "meta": "@BPJS"
+        }
+      ],
+      "count": 0,
+      "id": "51aa347c-a675-4bf3-be30-6b53e410b491",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "21",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "64aefb67-7d41-4ffb-aad0-813e022c7115",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

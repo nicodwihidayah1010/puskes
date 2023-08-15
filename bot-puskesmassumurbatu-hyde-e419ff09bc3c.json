@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "bot-puskesmassumurbatu-hyde",
+  "private_key_id": "e419ff09bc3ce4ac8cfda0c6ecedc597432b07df",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDBQxt7r0e4ro52\nPicYycLYLw2v34V9sRjnh8epvIQ6jqZelzKuStuYebhG61TR3fqtUDvilk4ZBt9z\netRpnTM38QCO4LuIqN2L5XE6CSlnZc5+lx1UJmdUBerkOSt/Qim5xh9UfOX2vtdE\ncTBOh1ocTVho/Rj5U+OtN545b4jTFqYIXbaeA2u778YJ4e497OpYxOCACiF9MkdV\nXTHlvNzLYvl0ef8C+Ja3VC2Opgll+qkvQVUU9esT40owUuzGzANHmEaVRRw/W3LK\n35uiO4Rw65AtP0gDIL90IVUb0HculSvK/ROmlLyhlDE+chibdfGWHo2j/YON8ALy\nTttcfLHLAgMBAAECggEAOiG2ZZjOqQWQgo6lcfZWbnKQ2mMQo0Me653S+AJlf7ui\n3Xb7XqPTs+SBAowM4mez3Gfy63Aso6iGlBTRScdoPZ53fYKpxiyNH2Rvj3ZsBtb/\nquJHhyVaFVMGWYm8xLWhGWk3yVEcVwEGfWbSkfxypWq6ejIPTgfmxxaguEQNUvjJ\nCMUNRTcCb6/+fSznAZ/3IPTCrbW3TNBLoUwEZJOEvR0724x+h/dFa0h3REkJWTAF\nN3gt+LBLXcZ5GdcNlJmhdhHaOIaN6YDCVS7wA1xl9DNoNAMx4yvX0Gwq1XdzMHbW\neUlGfJK7kUr+l3tt2EmMay/y++2F70QCiwzL7OT/uQKBgQD+algFpc1TZMIPcDhJ\nVZv3ah04h7ZcFKh3MNnXIt5kcYpV2TZSiXZStcv62CIhblMO65Nwnvb6faURsjWZ\nRXSUFDPVcEFZnecmvzdTynJ8S+taMj3VjwGo7jB/AnoRKvpTJZL6eMONYsJLZBuX\nqrlBSOPjSdbxPaKaa42jpPuVTwKBgQDCd0HArfpI0pG+sERPLX6wqfViW2hx/XiZ\nsjY4OQhzbxRMe98r2hChSvIESjspTIC0Bd8/ce18RGe2s/Q4Cym4u764JikQe65m\nbz8GECqsEEHGElZDI7n2o2ThCcoFPaqgIL/FtGRRcCknmLsG2/4kyu6qxPGgwdsU\nNIii7FV0xQKBgQCVh/16PEwlAqiImGWMvLNxxL2t9x34mu+1NlIi/0yE7rLm6Ebk\nVgTkchOUuKm+ynAo6c77t4LkESsO7pZQIqF1UzZv8Y2HVaaBgIvNRMTrR1fp6HOt\nbGMGXhDE5bjHFGKSshfj/Uy6cdxOoWUSTHab53KBqWma2qYSarqR/ysbQwKBgGFz\ndeXiyYv4ycSvfGvZNqW9ZhS2De8hwG/1GKqwGgYO4jM52CqXisHpVsLDmEYn6k9M\nqgWXSBWACiFKqNX08iF7JCYQKX/zGwCGOyUEsP2s3+ksg0H+A1EPrJwBVdWug3Tf\nNHsU3TjaZiVLql3TnNY/Q78cFqIiw3CqqtZKbMCpAoGAEfvZtGIUSMi2b/umfDyj\nAudv0eIDCjCE+mlOcPMkwIE5IkjzKegSfMeuAZum/+O5Ok/W1vSPJ7vRSWnq3Ffm\npoL/aQJ2S1RaMoHPZNo2uata1UD17S0/biV4LqIXZEs/hdDdEX0V9xqHRbtVZW+M\n1YsepBH4vRuE/cKA9ExxpxU=\n-----END PRIVATE KEY-----\n",
+  "client_email": "bot-puskesmassumurbatu@bot-puskesmassumurbatu-hyde.iam.gserviceaccount.com",
+  "client_id": "105989161277551185120",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/bot-puskesmassumurbatu%40bot-puskesmassumurbatu-hyde.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

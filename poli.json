@@ -1,0 +1,123 @@
+{
+  "id": "96e2342c-2cc6-4384-88c8-9a4a6c719105",
+  "name": "poli",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "poli",
+          "dataType": "@poli",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$poli",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Daftar Pelayanan Poli Di Puskesmas Sumur Batu:\n- Poli Umum I\n- Poli Umum II\n- Poli KIA\n- Poli Gigi\n\n31. Syarat Mendaftar\n32. Daftar\n33. Info Dokter\n34. Tentang Poli\n  0.  Kembali\n\nKetikkan Angka Terkait Untuk Melanjutkan Tahap Berikutnya"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "81",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5d8f3a50-1072-4ed9-af94-0c470ea10d3c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Poli Info",
+          "userDefined": true,
+          "alias": "poli",
+          "meta": "@poli"
+        }
+      ],
+      "count": 0,
+      "id": "4bf2513c-e196-49d8-9ebd-5f3580852edc",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Info Poli",
+          "userDefined": true,
+          "alias": "poli",
+          "meta": "@poli"
+        }
+      ],
+      "count": 0,
+      "id": "1cb6809c-2a5f-4b4b-960e-19eb6a992e07",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "poli",
+          "userDefined": true,
+          "alias": "poli",
+          "meta": "@poli"
+        }
+      ],
+      "count": 0,
+      "id": "b6259f58-3b7f-4bd7-a559-f7b685b94ef3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "1",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "c0b0db2b-b914-4331-b3e7-af5d5e1aa251",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

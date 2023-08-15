@@ -1,0 +1,77 @@
+{
+  "id": "029e4d1d-aab2-418e-a40f-6acf3b4673da",
+  "name": "Menu",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Berikut Beberapa Informasi Yang Bisa anda Cari Tentang Puskesmas Sumur Batu :\n\n1. Poli\n2. BPJS\n3. Vaksin\n4. Info Pelayanan\n5. Info Dokter\n6. Daftar Sebagai Pasien\n\nKetikkan Angka Terkait Untuk Tahap Berikutnya"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "0",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ba180ea9-57cf-4a6f-b257-655282b410b8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Info",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5faf58a9-1615-42ab-8c76-c0cc8cb5eca9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Menu",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9567772f-4793-4c12-bbbc-47a71985adec",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

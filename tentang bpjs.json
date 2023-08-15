@@ -1,0 +1,137 @@
+{
+  "id": "e6e71e2f-726b-4ffa-85ab-213381c08d00",
+  "name": "tentang bpjs",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "number",
+          "dataType": "@sys.number",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$number",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "bpjs",
+          "dataType": "@BPJS",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$bpjs",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "tentangbpjs",
+          "dataType": "@tentangbpjs",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$tentangbpjs",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "TENTANG BPJS:\nBadan Penyelenggara Jaminan Sosial atau BPJS adalah merupakan suatu badan dari pemerintah Badan Penyelenggara Jaminan Sosial \nyang dibentuk pemerintah untuk memberikan Jaminan Kesehatan \nuntuk Masyarakat dan seluruh warga negara Indonesia nantinya secara bertahap.\n\n82. Kembali\n  0. Menu Utama"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "tentang bpjs",
+          "userDefined": false,
+          "alias": "bpjs",
+          "meta": "@BPJS"
+        }
+      ],
+      "count": 0,
+      "id": "2fa511fd-25d0-4ab2-af50-c419d07e16d1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "apa itu bpjs",
+          "userDefined": true,
+          "alias": "tentangbpjs",
+          "meta": "@tentangbpjs"
+        }
+      ],
+      "count": 0,
+      "id": "542dd508-196e-4e3d-8ef6-9925471fb28d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Apasih BPJS",
+          "userDefined": true,
+          "alias": "tentangbpjs",
+          "meta": "@tentangbpjs"
+        }
+      ],
+      "count": 0,
+      "id": "0a381e53-d7d3-4fac-ad40-f962d38cb708",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "22",
+          "userDefined": false,
+          "alias": "number",
+          "meta": "@sys.number"
+        }
+      ],
+      "count": 0,
+      "id": "ea608cf0-0dbf-4a8a-99f9-0b74ff47fde6",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

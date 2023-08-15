@@ -1,0 +1,138 @@
+{
+  "id": "b3effb42-e819-4bb7-8373-7c9308e23822",
+  "name": "sarat vaksin anak",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "number",
+          "dataType": "@sys.number",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$number",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "vaksinasianak",
+          "dataType": "@vaksinasianak",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$vaksinasianak",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "SARAT VAKSINASI ANAK:\n\n- KK\n- KTP Orang Tua\n- Membawa Buku Vaksin / Buku Pink\n\n  3. Kembali\n  0. Menu Utama\n\nKetikkan Angka Terkait Untuk Tahap Berikutnya"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "syarat vaksin anak",
+          "userDefined": true,
+          "alias": "vaksinasianak",
+          "meta": "@vaksinasianak"
+        }
+      ],
+      "count": 0,
+      "id": "8ae04aeb-827e-4a10-8891-e268b3e25939",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "sarat vaksin anak",
+          "userDefined": true,
+          "alias": "vaksinasianak",
+          "meta": "@vaksinasianak"
+        }
+      ],
+      "count": 0,
+      "id": "4bc6f5dc-5969-4474-9309-9f6525a26ed7",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "syarat vaksin",
+          "userDefined": true,
+          "alias": "vaksinasianak",
+          "meta": "@vaksinasianak"
+        }
+      ],
+      "count": 0,
+      "id": "0f75ca2f-05f7-4b99-8645-00935dffe690",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "sarat vaksin",
+          "userDefined": true,
+          "alias": "vaksinasianak",
+          "meta": "@vaksinasianak"
+        }
+      ],
+      "count": 0,
+      "id": "ea4ca581-5f8a-46e7-a213-ed1e1d279c7f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "41",
+          "userDefined": false,
+          "alias": "number",
+          "meta": "@sys.number"
+        }
+      ],
+      "count": 0,
+      "id": "f4f2ccfd-9de8-4cef-a94d-ae8df1253537",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

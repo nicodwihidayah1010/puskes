@@ -1,0 +1,79 @@
+{
+  "id": "23263f51-d514-48b8-b9e3-64b9afc945fb",
+  "name": "BPJS",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Puskesmas Menyediakan Layanan BPJS\n21. Syarat BPJS\n22. Tentang BPJS\n  0. Menu Utama"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "82",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1f5bd6d2-3ee4-4767-aa64-44ba3067f30d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "2",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "dd295c7a-09c5-4569-847f-c8b205a7b27f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "BPJS",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "be6a13e3-6276-4b48-8c05-d144375cc82c",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

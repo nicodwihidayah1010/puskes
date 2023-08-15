@@ -1,0 +1,125 @@
+{
+  "id": "be9a2c68-0cb3-4115-b1e2-405ff27b74fb",
+  "name": "sarat daftar poli",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "poli",
+          "dataType": "@poli",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$poli",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Syarat Pendaftaran :\n\nUsia > 17 Tahun\n- KTP\n- KK\n- BPJS (Jika Ada)\n\nUsia < 17 Tahun\n- KTP Orang Tua\n- KK\n\nDAFTAR: https://forms.gle/Hpx1jqHNMPFQXHNy5\n\n81. Kembali\n  0. Menu Utama"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Syarat poli",
+          "userDefined": true,
+          "alias": "poli",
+          "meta": "@poli"
+        }
+      ],
+      "count": 0,
+      "id": "040fa4d9-b8d4-4f3d-bc31-87d77ddc6577",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Syarat Mendaftar Poli",
+          "userDefined": true,
+          "alias": "poli",
+          "meta": "@poli"
+        }
+      ],
+      "count": 0,
+      "id": "fc3970d7-9294-46b4-9cba-4d4a265f3f80",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "syarat daftar poli",
+          "userDefined": true,
+          "alias": "poli",
+          "meta": "@poli"
+        }
+      ],
+      "count": 0,
+      "id": "ddc7d642-5a9a-4b52-b849-59031c4db012",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "sarat daftar poli",
+          "userDefined": true,
+          "alias": "poli",
+          "meta": "@poli"
+        }
+      ],
+      "count": 0,
+      "id": "0dfeca37-c6e7-43cb-80bd-bc65fa3bbf61",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "31",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "402e63a2-51ce-4946-9277-c63aad6b06d6",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

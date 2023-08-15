@@ -1,0 +1,124 @@
+{
+  "id": "5915eb4b-aad6-42c0-b656-422b9c5a249f",
+  "name": "Tentang Poli",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "number",
+          "dataType": "@sys.number",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$number",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "tentangpoli",
+          "dataType": "@tentangpoli",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$tentangpoli",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "TENTANG POLI: \nPoli Penyakit Dalam adalah poliklinik yang menyediakan \nlayanan kesehatan untuk masalah kesehatan yang terkait\ndengan organ dalam tubuh manusia, seperti jantung, paru-paru, lambung, usus, hati, ginjal, dan sistem kekebalan tubuh.\n\n81. Kembali\n  0. Menu Utama\n\nKetikkan Angka Terkait Untuk Melanjutkan Tahap Berikutnya"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "apa itu poli",
+          "userDefined": true,
+          "alias": "tentangpoli",
+          "meta": "@tentangpoli"
+        }
+      ],
+      "count": 0,
+      "id": "dd4e3233-9997-4226-b93b-fce81690bd7d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "apasih poli",
+          "userDefined": true,
+          "alias": "tentangpoli",
+          "meta": "@tentangpoli"
+        }
+      ],
+      "count": 0,
+      "id": "36e1ed09-5dcd-46e0-84fe-6d0acff4335d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Tentang Poli",
+          "userDefined": true,
+          "alias": "tentangpoli",
+          "meta": "@tentangpoli"
+        }
+      ],
+      "count": 0,
+      "id": "cc98417c-863e-40cd-8e80-e92cfe7f537e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "34",
+          "userDefined": false,
+          "alias": "number",
+          "meta": "@sys.number"
+        }
+      ],
+      "count": 0,
+      "id": "eabfe41b-8125-4152-bc09-06a86922c65b",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

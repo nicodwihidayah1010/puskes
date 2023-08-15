@@ -1,0 +1,123 @@
+{
+  "id": "26cecfea-ab21-4b92-89bc-0168fce0d593",
+  "name": "Vaksin",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "Vaksin",
+          "dataType": "@Vaksin",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$Vaksin",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Puskesmas Sumur Batu Sementara Menyediakan Vaksinasi Hanya Untuk Balita/Anak\n\n41. Syarat Vaksinasi Anak\n42. Jadwal Vaksinasi Anak\n43. Daftar Vaksinasi Anak\n44. Tentang Vaksinasi Anak\n  0. Menu Utama\n\nKetikkan Angka Terkait Untuk Tahap Berikutnya"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Info Vaksin",
+          "userDefined": true,
+          "alias": "Vaksin",
+          "meta": "@Vaksin"
+        }
+      ],
+      "count": 0,
+      "id": "c53f1657-001d-459f-a91b-5d00ec62c20c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "mau vaksin",
+          "userDefined": true,
+          "alias": "Vaksin",
+          "meta": "@Vaksin"
+        }
+      ],
+      "count": 0,
+      "id": "57870dca-1a22-4a20-bf77-ee6d88323d05",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "vaksinasi",
+          "userDefined": true,
+          "alias": "Vaksin",
+          "meta": "@Vaksin"
+        }
+      ],
+      "count": 0,
+      "id": "da463a44-bc7e-40a6-ae1c-a2f82fa644a6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "3",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d379b357-2140-4f21-bcb8-6efd7a68dab9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "vaksin",
+          "userDefined": true,
+          "alias": "Vaksin",
+          "meta": "@Vaksin"
+        }
+      ],
+      "count": 0,
+      "id": "4a9859b0-25ba-43be-96c1-78e3a271d0d2",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

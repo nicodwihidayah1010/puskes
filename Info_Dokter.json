@@ -1,0 +1,81 @@
+{
+  "id": "455953fb-c9d2-4030-8287-79478285ba52",
+  "name": "Info_Dokter",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "dokter",
+          "dataType": "@dokter",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$dokter",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Daftar Dokter:\n\nPoli Umum I\n  - dr. Arny Melita\n  - dr. Raissa Ulfah\n\nPoli Umum II\n   - dr. Puspita Dewi\n   - dr. Andrian Prasetya W\n\nPoli KIA\n  - dr. Tuti Melinda Sari\n  - Bidan Hertati, S.ST, M.Kes\n  - Bidan Dwi Maya, S.ST \n\nPoli Gigi\n  - drg. Zairina\n\n  0. Menu Utama\n\nKetikkan Angka Terkait Untuk Melanjutkan Tahap Berikutnya"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "5",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b13ff6e8-033c-41ac-bda5-76404b2efb76",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Info Dokter",
+          "userDefined": true,
+          "alias": "dokter",
+          "meta": "@dokter"
+        }
+      ],
+      "count": 0,
+      "id": "26b877ad-89a3-4946-90e5-4c477d5c0c90",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

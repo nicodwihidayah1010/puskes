@@ -1,0 +1,153 @@
+{
+  "id": "4eac816f-ae7e-4cc4-927a-42de8310e5e5",
+  "name": "Info Layanan",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "InfoLayanan",
+          "dataType": "@InfoLayanan",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$InfoLayanan",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "JAM PELAYANAN PUSKESMAS :\nSenin - Kamis  : 08.00 s.d 14.00\nJum'at     : 08.00 s.d 11.30\nSabtu      : 08.00 s.d 13.00\nMinggu   : Tutup \n\nJAM PELAYANAN KHUSUS TINDAKAN GIGI : \nSenin - Kamis : 08.00 s.d 13.30\nJum'at  : 08.00 s.d 11.00\nSabtu    : 08.00 s.d 12.30\nMinggu : Tutup \n\nPuskesmas Sumur Batu Menyediakan Layanan :\n\n51. Jadwal Posyandu\n  0. Menu Utama\n\nKetik Angka Terkait Untuk Melanjutkan"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "JAM PELAYANAN KHUSUS TINDAKAN GIGI",
+          "userDefined": true,
+          "alias": "InfoLayanan",
+          "meta": "@InfoLayanan"
+        }
+      ],
+      "count": 0,
+      "id": "75d887c0-d550-4f3c-bebb-7fc37d8996c6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "JAM PELAYANAN PUSKESMAS",
+          "userDefined": true,
+          "alias": "InfoLayanan",
+          "meta": "@InfoLayanan"
+        }
+      ],
+      "count": 0,
+      "id": "d425da1c-945f-407f-adda-50be1ea96f22",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Pelayanan",
+          "userDefined": true,
+          "alias": "InfoLayanan",
+          "meta": "@InfoLayanan"
+        }
+      ],
+      "count": 1,
+      "id": "387ed98f-fd2b-44f0-8431-dd0df9afcbd7",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Info Pelayanan",
+          "userDefined": true,
+          "alias": "InfoLayanan",
+          "meta": "@InfoLayanan"
+        }
+      ],
+      "count": 0,
+      "id": "eceb687c-f08e-4f4b-8a6e-c962d1b66d31",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "4",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "fcbc8e66-a932-4886-a013-9641f098fcda",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Cari Layanan",
+          "userDefined": true,
+          "alias": "InfoLayanan",
+          "meta": "@InfoLayanan"
+        }
+      ],
+      "count": 0,
+      "id": "aaaeeacc-fe0e-4e90-8c85-f3ac67414830",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Info Layanan",
+          "userDefined": true,
+          "alias": "InfoLayanan",
+          "meta": "@InfoLayanan"
+        }
+      ],
+      "count": 0,
+      "id": "df2666c4-43ff-425a-8bc4-5e94ea8decb9",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

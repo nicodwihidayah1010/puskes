@@ -1,0 +1,53 @@
+{
+  "id": "f1dc9cfa-1cba-4399-94be-8bd1aeb12f15",
+  "name": "Poli_dokter",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Daftar Dokter:\n\nPoli Umum I\n  - dr. Arny Melita\n  - dr. Raissa Ulfah\n\nPoli Umum II\n   - dr. Puspita Dewi\n   - dr. Andrian Prasetya W\n\nPoli KIA\n  - dr. Tuti Melinda Sari\n  - Bidan Hertati, S.ST, M.Kes\n  - Bidan Dwi Maya, S.ST \n\nPoli Gigi\n  - drg. Zairina\n  \n81. Kembali\n  0. Menu Utama\n\nKetikkan Angka Terkait Untuk Melanjutkan Tahap Berikutnya"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "33",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "75010cf7-892f-4f98-812e-1fb83252749a",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

@@ -1,0 +1,138 @@
+{
+  "id": "7013a3da-ece7-483c-af9c-530ef06d06d0",
+  "name": "Jadwal_Posyandu",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "number",
+          "dataType": "@sys.number",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$number",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "InfoLayanan",
+          "dataType": "@InfoLayanan",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$InfoLayanan",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "JADWAL TANGGAL POSYANDU BULANAN :\nFORMAT: Posyandu:TGL\n\nKELURAHAN GULAK GALIK\nPosyandu tunas mutia : 4\nPosyandu Sriwijaya : 5\nPosyandu Jelita : 8\nPosyandu Tunas harapan : 9\nPosyandu Beringin : 11\nPosyandu Kenanga : 14\nPosyandu Anggrek : 17\nPosyandu Seruni : 18\n\nKELURAHAN PENGAJARAN \nPosyandu Cucok rowo : 10\nPosyandu Murai : 13\nPosyandu Merpati : 18\nPosyandu Rajawalai : 20\n\nKELURAHAN SUMUR BATU\nPosyandu Teratai : 5\nPosyandu cempaka putih : 7\nPosyandu Anggrek : 10\nPosyandu teratai putih : 13\nPosyandu Assyukru : 15\nPosyandu Dahlia : 16\nPosyandu Melati : 20\n\n4. Kembali\n0. Menu Utama\n\nKetik Angka Terkait Untuk Melanjutkan"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "posandu",
+          "userDefined": true,
+          "alias": "InfoLayanan",
+          "meta": "@InfoLayanan"
+        }
+      ],
+      "count": 0,
+      "id": "e460925f-3cd9-4a24-b6fa-302b3ec630c6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "posyandu",
+          "userDefined": true,
+          "alias": "InfoLayanan",
+          "meta": "@InfoLayanan"
+        }
+      ],
+      "count": 0,
+      "id": "49d0e2aa-be19-4f10-af13-202e85c4600c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Info Posyandu",
+          "userDefined": true,
+          "alias": "InfoLayanan",
+          "meta": "@InfoLayanan"
+        }
+      ],
+      "count": 0,
+      "id": "de968a12-82de-4e71-aa68-ce7b92282651",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Jadwal Posyandu",
+          "userDefined": true,
+          "alias": "InfoLayanan",
+          "meta": "@InfoLayanan"
+        }
+      ],
+      "count": 0,
+      "id": "017a703c-fe3a-4687-980a-facd699357d7",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "51",
+          "userDefined": false,
+          "alias": "number",
+          "meta": "@sys.number"
+        }
+      ],
+      "count": 0,
+      "id": "5333c7c8-024d-4d91-b30a-3b5c2d9037b7",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

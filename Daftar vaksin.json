@@ -1,0 +1,96 @@
+{
+  "id": "c03deea2-0e82-46b2-9b13-ad6e0a46fdfd",
+  "name": "Daftar vaksin",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "Vaksin",
+          "dataType": "@Vaksin",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$Vaksin",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "number",
+          "dataType": "@sys.number",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$number",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "DAFTAR: https://forms.gle/Hpx1jqHNMPFQXHNy5\n\nCatatan:  Bawa Buku Pink/Buku Vaksin Anak\n\n3. Kembali\n0. Menu utama\n\nKetikkan Angka Terkait Untuk Tahap Berikutnya"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "43",
+          "userDefined": false,
+          "alias": "number",
+          "meta": "@sys.number"
+        }
+      ],
+      "count": 0,
+      "id": "dbc80b1a-3148-4fca-b6ef-8f0afb95b8e5",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Daftar Vaksin",
+          "userDefined": true,
+          "alias": "Vaksin",
+          "meta": "@Vaksin"
+        }
+      ],
+      "count": 0,
+      "id": "b8818d9f-1b3c-4dd8-b4f4-baaa3d02ff46",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

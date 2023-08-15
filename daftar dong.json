@@ -1,0 +1,180 @@
+{
+  "id": "d5d05cca-4d3f-4a06-91b7-91db038425c3",
+  "name": "daftar dong",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "number",
+          "dataType": "@sys.number",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$number",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "daftar",
+          "dataType": "@daftar",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$daftar",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Untuk Mendaftar Sebagai Pasien \nSilahkan Klik Link Berikut: https://forms.gle/Hpx1jqHNMPFQXHNy5\n\n0. Menu Utama\n\nKetikkan Angka Terkait Untuk Tahap Berikutnya"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "daftar dong",
+          "userDefined": true,
+          "alias": "daftar",
+          "meta": "@daftar"
+        }
+      ],
+      "count": 0,
+      "id": "b8c844b0-8ac6-4232-b26a-66f5f6225696",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "pengen daftar",
+          "userDefined": true,
+          "alias": "daftar",
+          "meta": "@daftar"
+        }
+      ],
+      "count": 0,
+      "id": "36799735-9b92-4c05-8344-1b3749bf72a3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ingin daftar",
+          "userDefined": true,
+          "alias": "daftar",
+          "meta": "@daftar"
+        }
+      ],
+      "count": 0,
+      "id": "ed3d5082-3669-40f3-8432-21bfc1143d03",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "info daftar",
+          "userDefined": true,
+          "alias": "daftar",
+          "meta": "@daftar"
+        }
+      ],
+      "count": 0,
+      "id": "5200932f-abac-4cda-aa8a-35f9b1ec5796",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "mendaftar",
+          "userDefined": true,
+          "alias": "daftar",
+          "meta": "@daftar"
+        }
+      ],
+      "count": 0,
+      "id": "8160943a-2eef-46f5-9930-6bb1e10a661b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "daftar",
+          "userDefined": true,
+          "alias": "daftar",
+          "meta": "@daftar"
+        }
+      ],
+      "count": 0,
+      "id": "19a1625a-7ff4-4ec9-971c-1555782398a6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "daftar pasien",
+          "userDefined": true,
+          "alias": "daftar",
+          "meta": "@daftar"
+        }
+      ],
+      "count": 0,
+      "id": "7b11e76e-1ec1-4d69-8a56-7db68675aace",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "6",
+          "userDefined": false,
+          "alias": "number",
+          "meta": "@sys.number"
+        }
+      ],
+      "count": 0,
+      "id": "9218a29a-1332-4bd1-9757-11d6b6014e7b",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

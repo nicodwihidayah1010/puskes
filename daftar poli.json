@@ -1,0 +1,97 @@
+{
+  "id": "e34ca6ca-5a99-41f4-a162-a856181fba71",
+  "name": "daftar poli",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "poli",
+          "dataType": "@poli",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$poli",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Untuk Mendaftar Sebagai Pasien \nSilahkan Klik Link Berikut: https://forms.gle/Hpx1jqHNMPFQXHNy5\n\n\n81. Kembali\n 0. Menu Utama\n\nKetikkan Angka Terkait Untuk Tahap Berikutnya"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "cara daftar poli",
+          "userDefined": true,
+          "alias": "poli",
+          "meta": "@poli"
+        }
+      ],
+      "count": 0,
+      "id": "410a64bb-84f9-4028-89e2-6e14eb70a0cc",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Daftar Poli",
+          "userDefined": true,
+          "alias": "poli",
+          "meta": "@poli"
+        }
+      ],
+      "count": 0,
+      "id": "961523ee-0012-4cad-9148-ab2aeb2d607c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "32",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "99be38b2-428a-42ba-9219-bb9cd91c04b9",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}
